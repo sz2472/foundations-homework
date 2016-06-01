@@ -1,0 +1,192 @@
+    1  xcode-select--install
+    2  xcode-select --install
+    3  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    4  echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile
+    5  source ~/.bash_profile
+    6  brew install python3
+    7  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    8  pip3 install -U pip
+    9  pip3 install -U pip sudo pip3 install -U pip
+   10  sudo pip3 install -U pip
+   11  brew install python3
+   12  pip3 install -U pip
+   13  sudo pip3 install -U pip
+   14  pip3 install virtualenv
+   15  pip install virtualenvwrapper
+   16  if [ -n "$ZSH_VERSION" ]; then export TARGET=~/.zprofile; fi
+   17  if [-n "$BASH_VERSION" ]; then export TARGET=~/.bash_profile; fi echo 'export WORKON_HOME=$HOME/.virtualenvs' >> $TARGET
+   18  export VIRTUALENVWRAPPER_SH_PATH=/usr/local/bin/virtualenvwrapper.sh if [ -e ~/.babunrc ]; then export VIRTUALENVWRAPPER_SH_PATH=/bin/virtualenvwrapper.sh; fi source $TARGET
+   19  if [ -n "$ZSH_VERSION" ]; then export TARGET=~/.zprofile; fi
+   20  if [ -n "$BASH_VERSION" ]; then export TARGET=~/.bash_profile; fi
+   21  echo 'export WORKON_HOME=$HOME/.virtualenvs' >> $TARGET
+   22  export VIRTUALENVWRAPPER_SH_PATH=/usr/local/bin/virtualenvwrapper.sh
+   23  if [ -e ~/.babunrc ]; then export VIRTUALENVWRAPPER_SH_PATH=/bin/virtualenvwrapper.sh; fi
+   24  echo "source $VIRTUALENVWRAPPER_SH_PATH" >> $TARGET
+   25  source $TARGET
+   26  pip install virtualenvwrapper
+   27  pip install virtualenvwrapper
+   28  if [ -n "$ZSH_VERSION" ]; then export TARGET=~/.zprofile; fi
+   29  if [ -n "$BASH_VERSION" ]; then export TARGET=~/.bash_profile; fi
+   30  echo 'export WORKON_HOME=$HOME/.virtualenvs' >> $TARGET
+   31  export VIRTUALENVWRAPPER_SH_PATH=/usr/local/bin/virtualenvwrapper.sh
+   32  if [ -e ~/.babunrc ]; then export VIRTUALENVWRAPPER_SH_PATH=/bin/virtualenvwrapper.sh; fi
+   33  echo "source $VIRTUALENVWRAPPER_SH_PATH" >> $TARGET
+   34  source $TARGET
+   35  workon schools
+   36  mkvirtualenv schools
+   37  deactivate
+   38  pip3 install virtualenwrapper
+   39  pip3 uninstall virtualenvwrapper
+   40  pip3 uninstall virtualenv
+   41  pip3 install virtualenv
+   42  pip3 install virtualenvwrapper
+   43  vi .bash_profile
+   44  if [ -n "$BASH_VERSION" ]; then export TARGET=~/.bash_profile; fi
+   45  echo 'export WORKON_HOME=$HOME/.virtualenvs' >> $TARGET
+   46  export VIRTUALENVWRAPPER_SH_PATH=/usr/local/bin/virtualenvwrapper.sh
+   47  if [ -e ~/.babunrc ]; then export VIRTUALENVWRAPPER_SH_PATH=/bin/virtualenvwrapper.sh; fi
+   48  echo "source $VIRTUALENVWRAPPER_SH_PATH" >> $TARGET
+   49  source $TARGET
+   50  vi .bash_profile
+   51  workon schools
+   52  source .bash_profile
+   53  cat .bash_profile 
+   54  which python3
+   55  source .bash_profile 
+   56  pip3 install virtualenvwrapper
+   57  deactivate
+   58  which python3
+   59  vi ~/.bash_profile 
+   60  which python3
+   61  vi ~/.bash_profile 
+   62  which pip3
+   63  which python3
+   64  vi ~/.bash_profile 
+   65  'which python'
+   66  `which python`
+   67  clear
+   68  echo 'which python'
+   69  echo `which python`
+   70  workon schools
+   71  python --version
+   72  deactivate
+   73  python --version
+   74  clear
+   75  workon schools
+   76  python --version
+   77  deactivate
+   78  python --version
+   79  clear
+   80  ls
+   81  pwd
+   82  ls -l
+   83  ls -lh
+   84  ls -lha
+   85  cd Downloads
+   86  ls
+   87  cat Oxford%20English%20Dictionary.txt
+   88  cat Oxford%20English%20Dictionary.txt head -n 20
+   89  head n20 Oxford%20English%20Dictionary.txt
+   90  tail -n20 Oxford%20English%20Dictionary.txt
+   91  cd ..
+   92  cd /Users/sz2472/Downloads/a-folder ls
+   93  ls
+   94  cat
+   95  cd /Users/sz2472/Downloads/a-folder 
+   96  ls
+   97  cat instructions.txt 
+   98  ls -lh
+   99  cd /Users/sz2472/Downloads/a-folder 
+  100  ls -lh
+  101  ls -lha
+  102  cd .a-folder
+  103  ls
+  104  cat instructions.txt 
+  105  cd another-folder-with-a-really-really-really-long-name/
+  106  ls
+  107  ls -lha
+  108  cd here\'s\ another\ folder/
+  109  cd ~
+  110  cd ~/Downloads
+  111  cat Oxford%20English%20Dictionary.txt 
+  112  echo "WHAT COMMNAD DO I USE TO SEARCH INSIDE A FILE ON THE COMMAND LINE"
+  113  grep picnic Oxford%20English%20Dictionary.txt 
+  114  wc Oxford%20English%20Dictionary.txt 
+  115  man wc
+  116  wc -l Oxford%20English%20Dictionary.txt 
+  117  | wc -l
+  118  grep "adj." Oxford%20English%20Dictionary.txt 
+  119  grep "adj." Oxford%20English%20Dictionary.txt | wc -l
+  120  workon introduction
+  121  mkvirtualenv introduction
+  122  python intro.py
+  123  python intro.py
+  124  python intro.py
+  125  python intro.py
+  126  ls
+  127  cd Desktop
+  128  ls
+  129  cd class-1
+  130  python intro.py
+  131  print "Hello world"
+  132  print ('Hello world!')
+  133  python intro.py
+  134  python intro.py
+  135  python intro.py
+  136  python intro.py
+  137  python intro.py
+  138  python intro.py
+  139  python intro.py
+  140  python intro.py
+  141  python intro.py
+  142  python intro.py
+  143  python intro.py
+  144  python intro.py
+  145  python intro.py
+  146  python intro.py
+  147  python intro.py
+  148  python intro.py
+  149  python intro.py
+  150  python intro.py
+  151  python intro.py
+  152  python intro.py
+  153  python intro.py
+  154  python --version
+  155  workon introductions
+  156  mkvirtualenv introductions
+  157  python intro.py 
+  158  python intro.py 
+  159  python intro.py 
+  160  python intro.py 
+  161  python intro.py 
+  162  wget
+  163  curl
+  164  python intro.py 
+  165  python intro.py 
+  166  python intro.py 
+  167  '/Applications/Postgres.app/Contents/Versions/9.5/bin'/psql -p5432
+  168  '/Applications/Postgres.app/Contents/Versions/9.5/bin'/psql -p5432
+  169  cd /Users/sz2472/Downloads/FatalitiesFY13.csv 
+  170  cat /Users/sz2472/Downloads/FatalitiesFY13.csv 
+  171  wc -l /Users/sz2472/Downloads/FatalitiesFY13.csv 
+  172  grep 2013 /Users/sz2472/Downloads/FatalitiesFY13.csv 
+  173  grep 2013 /Users/sz2472/Downloads/FatalitiesFY13.csv | wc -l
+  174  wc -l /Users/sz2472/Downloads/FatalitiesFY13.csv 
+  175  grep 2012 /Users/sz2472/Downloads/FatalitiesFY13.csv | wc -l
+  176  grep 2012 /Users/sz2472/Downloads/FatalitiesFY13.csv
+  177  pwd
+  178  history > ~/Desktop/history.txt
+  179  grep laser /Users/sz2472/Downloads/FatalitiesFY13.csv 
+  180  head -n 1 /Users/sz2472/Downloads/FatalitiesFY13.csv 
+  181  grep forklifts /Users/sz2472/Downloads/FatalitiesFY13.csv 
+  182  cd downloads
+  183  grep forklifts FatalitiesFY13.csv 
+  184  grep forklift FatalitiesFY13.csv 
+  185  grep forklift FatalitiesFY13.csv | wc -l
+  186  grep forklift FatalitiesFY13.csv | wc -l
+  187  grep Christmas Eve FatalitiesFY13.csv | wc -l
+  188  grep 12/24 FatalitiesFY13.csv | wc -l
+  189  grep trees FatalitiesFY13.csv 
+  190  cat trees.txt | sort | uniq
+  191  grep trees FatalitiesFY13.csv > trees.txt
+  192  history > ~/Desktop/history.txt
