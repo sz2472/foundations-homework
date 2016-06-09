@@ -1,7 +1,12 @@
+# Grade: 11.5 / 14
+
 #Shengying Zhao
 #May 31, 2016
 #Homework 3
+
+# TA-COMMENT: Great work in this section!
 countries=['United States', 'China', 'Britain', 'France', 'Greece', 'Egypt', 'Japan']
+
 for country in countries:
     print(country)
 countries.sort()
@@ -26,17 +31,24 @@ if difference > 0:
 else:
     print(tree['name'], 'was', int('difference'), 'years older when I was born')
 
-cities = [
-{'name':'Moscow', 'latitude':55.76, 'longitude':37.62},
+# TA-COMMENT: (-2) There are actually quite a few typos in the next 5 lines of code and the typos are actually preventing your code from running properly when I run your script on the command line. Be careful! And this is less relevant now that we've switched the jupyter notebook, but usually when you are preparing to submit a script, you want to make sure it can run properly from the command line. And if it doesn't run, look at the error you get to figure out how you can fix it. If it says something like, "syntax error", you're probably missing a quotation mark or closing brackets, etc.
+
+cities= [
+{name':'Moscow', 'latitude':55.76, 'longitude':37.62},
 {'name':'Tehran', 'latitude':35.69, 'longitude':51.39},
 {'name':'Falkland Islands', 'latitude':-51.80, 'longitude':-59.52},
-{'name':'Seoul', 'latitude':37.57, 'longitude':126.98} ,
-{'name':'Santiago', 'latitude':42.88, 'longitude':-8.54} ]
+{'name':'Seoul', 'latitude':37.57, 'longitude':126.98,
+{'name':'Santiago', 'latitude':42.88, 'longitude':-8.54}
+]
+
+# TA-COMMENT: (-0.5) Soma also asked for this loop to print "The Falkland Islands are a biogeographical part of the mild Antarctic zone." when it encounters city['name'] == 'Falkland Islands'
+
 for city in cities:
     if city['latitude'] > 0:
         print(city['name'], 'is above the equator')
     else:
         print(city['name'], 'is below the equator')
+
 for city in cities:
     if city['latitude'] > tree['latitude']:
     print(city['name'], 'is north of', tree['name'])
