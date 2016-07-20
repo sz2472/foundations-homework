@@ -1,0 +1,11 @@
+Grade: 10 / 10
+
+There's a "neater" way to express you insert statements! An example:
+
+        for cat in cat_list:
+            cursor.execute("INSERT INTO cat (name, birthdate, weight, color, pattern) VALUES (%s, %s, %s, %s, %s) RETURNING id",
+                  [cat['name'], cat['birthdate'], cat['weight'], cat['color'], cat['pattern']])
+                  
+
+
+Let me know if you have any questions! 
